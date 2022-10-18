@@ -52,7 +52,7 @@ public class Temperature {
     }
 
     private static double fahrenheitToCelsius(double degreesF) {
-        return degreesF - 32.0 * 9.0 / 5.0;
+        return (degreesF - 32.0) * 5.0 / 9.0;
     }
 
     private static double celsiusToKelvin(double degreesC) {
